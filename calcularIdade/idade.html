@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculando idade</title>
+        <link rel="stylesheet" href="idade.css">
+    </head>
+    <body>
+        <div>
+            <h1>Vamos calcular sua idade em dias, semanas e meses?</h1><br>
+            <h2>Insira o ano atual:</h2>
+            <input type="number" placeholder="formato YYYY" id="anoAtual"><br><br>
+
+            <h2>Insira o ano do seu nascimento:</h2>
+            <input type="number" placeholder="formato YYYY" id="anoNascimento"><br><br>
+
+            <button id="buttonVerificar" onclick="verificarIdade()">Verificar</button>
+
+            <p style="font-size:18pt" id="resultado"></p>
+        </div>
+    </body>
+
+    <script src="idade.js"></script>
+</html>
